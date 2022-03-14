@@ -6,7 +6,7 @@
 ## Summary
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=f&logo=bootstrap&logoColor=white)
 
-Food Festival web application; activity to practice omptimizing into Progressive Web Applications.
+Food Festival web application; activity to practice optimizing into Progressive Web Applications.
 
 ## Deployment
 
