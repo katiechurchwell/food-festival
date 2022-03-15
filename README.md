@@ -4,6 +4,8 @@
 
 
 ## Summary
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=f&logo=webpack&logoColor=black)
+![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=f&logo=jquery&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=f&logo=bootstrap&logoColor=white)
 
 Food Festival web application; activity to practice optimizing into Progressive Web Applications.
