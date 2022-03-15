@@ -11,16 +11,10 @@
 Food Festival web application; activity to practice optimizing into Progressive Web Applications.
 
 ## Deployment
-
+[katiechurchwell.github.io/food-festival/](katiechurchwell.github.io/food-festival/)
 
 ## Demo/Screenshot
-
-
-## Installation
-
-
-## Usage
-
+![Screenshot of Food Festival App](./screenshot.png)
 
 ## Questions
   If you have any questions about this project, please open an issue or use the contact information below:
