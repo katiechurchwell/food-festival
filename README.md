@@ -8,7 +8,7 @@
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=f&logo=jquery&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=f&logo=bootstrap&logoColor=white)
 
-Food Festival web application; activity to practice optimizing into Progressive Web Applications. Improved load time with lazy loading JavaScript bundles and compressing images with webpack. 
+Food Festival web application; activity to practice optimizing into Progressive Web Applications. Improved load time with lazy loading JavaScript bundles and compressing images with webpack. Added offline functionality with a service worker managing cached assets.
 
 ## Deployment
 [katiechurchwell.github.io/food-festival/](katiechurchwell.github.io/food-festival/)
