@@ -1,4 +1,4 @@
-function createEl(htmlString, attrs, ...children) {
+module.exports = function createEl(htmlString, attrs, ...children) {
   if (typeof htmlString !== "string") {
     throw Error("Argument 'htmlString' is required and must be a string");
   }
@@ -33,5 +33,3 @@ function createEl(htmlString, attrs, ...children) {
 
   return el;
 }
-
-module.exports = createEl;

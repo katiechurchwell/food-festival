@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = createEl;\n\n//# sourceURL=webpack:///./assets/js/domMethods.js?");
+eval("module.exports = function createEl(htmlString, attrs, ...children) {\n  if (typeof htmlString !== \"string\") {\n    throw Error(\"Argument 'htmlString' is required and must be a string\");\n  }\n\n  const el = document.createElement(htmlString);\n\n  if (typeof attrs === \"object\") {\n    for (let key in attrs) {\n      if (key.substring(0, 2) === \"on\") {\n        el.addEventListener(key.substring(2).toLowerCase(), attrs[key]);\n      } else if (key === \"style\") {\n        for (let rule in attrs[key]) {\n          el.style[rule] = attrs[key][rule];\n        }\n      } else {\n        el.setAttribute(key, attrs[key]);\n      }\n    }\n  }\n\n  children.forEach(function(child) {\n    let node;\n\n    if (child.constructor.name.includes(\"Element\")) {\n      node = child;\n    } else {\n      node = document.createTextNode(child);\n    }\n\n    el.appendChild(node);\n  });\n\n  return el;\n}\n\n//# sourceURL=webpack:///./assets/js/domMethods.js?");
 
 /***/ }),
 
